@@ -1,0 +1,156 @@
+
+
+.pfp {
+  background-color: rgba(30, 60, 80, 0.292);
+	cursor: url(img/cursor.png), auto;
+  border-image-source: url(img/tech.gif);
+}
+
+.pic {
+	cursor: url(img/cursor.png), auto;
+  border-image-source: url(img/tech.gif);
+}
+
+.name1{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: italic;
+  color: #cccccc;
+}
+
+
+.name2{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  color: #cccccc;
+}
+
+marquee{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #cccccc;
+}
+
+.profile{
+	background-color: #212121;    
+}
+
+.biotxt{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: italic;
+  color: #cccccc;
+}
+
+p{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.pfpbio{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+strong{
+  color: rgb(88, 40, 40);
+}
+
+u{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+li {
+  cursor: url(img/crursor.png), auto;
+
+}
+
+.rainbow{
+  font-family: "Press Start 2P", system-ui;
+   animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-moz-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-webkit-keyframes Color{
+  0%{
+    color:#A0D468;
+  }
+  
+  20%{
+    color:#4FC1E9;
+  }
+  
+  40%{
+    color:#FFCE54;
+  }
+  
+  60%{
+    color:#FC6E51;
+  }
+  
+  80%{
+    color:#ED5565;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
