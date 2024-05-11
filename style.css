@@ -2,13 +2,13 @@
 
 .pfp {
   background-color: rgba(30, 60, 80, 0.292);
-	cursor: url(img/cursor.png), auto;
-  border-image-source: url(img/tech.gif);
+	cursor: url(cursor.png), auto;
+  border-image-source: url(tech.gif);
 }
 
 .pic {
-	cursor: url(img/cursor.png), auto;
-  border-image-source: url(img/tech.gif);
+	cursor: url(cursor.png), auto;
+  border-image-source: url(tech.gif);
 }
 
 .name1{
@@ -67,7 +67,7 @@ u{
 }
 
 li {
-  cursor: url(img/crursor.png), auto;
+  cursor: url(crursor.png), auto;
 
 }
 
