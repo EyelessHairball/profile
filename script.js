@@ -19,10 +19,11 @@ const isMobile = {
     }
 };
 
-if( isMobile.any()(confirm('Mobile Browser detected. Would you like to move to the mobile page? [its just better formatting for mobile]'))) {
-    // Save it!
-    console.log('test! hooray!');
-  } else {
-    // Do nothing!
-    console.log('no mobile page!');
-  }
+if(isMobile.any()) var answer = window.confirm("Mobile Browser Detected. Would you like to move to the mobile page? [better formatting for mobile phones]");
+
+if (answer) {
+    alert("mobile!");
+}
+else {
+    alert("no mobile :(");
+};
