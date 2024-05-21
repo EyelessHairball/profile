@@ -19,11 +19,7 @@ const isMobile = {
     }
 };
 
-if(isMobile.any()) var answer = window.confirm("Mobile Browser Detected. Would you like to move to the mobile page? [better formatting for mobile phones]");
-
-if (answer) {
+if(isMobile.any()){
     window.location.href = "mobile.html";
 }
-else {
-    console.log("no mobile :(");
-};
+
